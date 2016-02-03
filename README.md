@@ -18,12 +18,16 @@ pip install jupyter
 
 ### Install Ruby Kernel
 
+Install Ruby 2.1 or higher using your favorite method. I prefer [rbenv](https://github.com/rbenv/rbenv#installation)
+
 ```bash
 bundle
 iruby notebook # run the kernel to install it
 ```
 
 ### Install Node/babel
+
+Install node.js 0.10 or higher using your favorite method. I prefer [nvm](https://github.com/creationix/nvm#installation)
 
 ```bash
 npm install
