@@ -1,3 +1,4 @@
 node_modules
-.ipynb_checkpoints/
-
+Gemfile.lock
+jupyter
+.ipynb_checkpoints

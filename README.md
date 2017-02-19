@@ -13,8 +13,13 @@
 
 ```bash
 brew install zeromq32
-pip install jupyter
+pip install virtualenv virtualenvwrapper
+source /usr/local/bin/virtualenvwrapper.sh
+mkvirtualenv jupyter
+pip install -r requirements.txt
 ```
+
+See [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/) for more information
 
 ### Install Ruby Kernel
 
