@@ -12,7 +12,7 @@
 ## Jupyter Setup
 
 ```bash
-brew install zeromq32
+brew install zmq
 pip install virtualenv virtualenvwrapper
 source /usr/local/bin/virtualenvwrapper.sh
 mkvirtualenv jupyter
@@ -27,7 +27,7 @@ Install Ruby 2.1 or higher using your favorite method. I prefer [rbenv](https://
 
 ```bash
 bundle
-iruby notebook # run the kernel to install it
+bundle exec iruby notebook # run the kernel to install it
 ```
 
 ### Install Node/babel
@@ -35,8 +35,8 @@ iruby notebook # run the kernel to install it
 Install node.js 0.10 or higher using your favorite method. I prefer [nvm](https://github.com/creationix/nvm#installation)
 
 ```bash
-npm install
-npm run babel # run the kernel to install it
+yarn install
+yarn babel # run the kernel to install it
 ```
 
 ## Running notebooks
